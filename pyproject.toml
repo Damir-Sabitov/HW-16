@@ -1,0 +1,23 @@
+[project]
+name = "hw-16"
+version = "0.1.0"
+description = "HW-16"
+authors = [
+    {name = "Damir Sabitov",email = "damirsabitov1998@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pytest==8.4.1",
+    "selene==1.0.2"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pylint==4.0.2"
+]
